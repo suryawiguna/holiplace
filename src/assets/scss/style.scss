@@ -42,6 +42,7 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
 
 .brand-text-icon {
   font-size: 32px;
@@ -82,4 +83,8 @@ header {
       }
     }
   }
+}
+
+.font-weight-extra-bold {
+  font-weight: 800;
 }
