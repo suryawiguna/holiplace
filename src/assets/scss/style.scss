@@ -161,7 +161,6 @@ section {
       transform: scale(1.1);
       transition: .5s transform ease-in-out;
       z-index: 2;
-      @include gradient-y(rgba(#000000, 0), rgba(#000000, 0.51), 0%, 100%)
     }
 
     .img-wrapper {
@@ -189,13 +188,10 @@ section {
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
+      @include gradient-y(rgba(#000000, 0), rgba(#000000, 0.51), 0%, 100%)
     }
 
     &:hover {
-      .meta-wrapper {
-        transform: translateY(-10px);
-      }
-
       &:after {
         transform: scale(1);
       }
