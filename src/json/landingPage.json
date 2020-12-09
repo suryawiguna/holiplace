@@ -59,7 +59,7 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "House with backyard",
       "items": [
         {
           "_id": "asd1293uasdads1",
@@ -97,7 +97,7 @@
     },
     {
       "_id": "asd1293uasdads1",
-      "name": "Hotels with large living room",
+      "name": "Hotels with living room",
       "items": [
         {
           "_id": "asd1293uasdads1",
@@ -113,7 +113,7 @@
           "imageUrl": "/images/image-category-6.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": false
+          "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
@@ -129,7 +129,7 @@
           "imageUrl": "/images/image-category-8.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": true
+          "isPopular": false
         }
       ]
     },

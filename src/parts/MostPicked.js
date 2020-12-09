@@ -4,7 +4,7 @@ import Button from "elements/Button";
 export default function MostPicked(props) {
   return (
     <section className="container" ref={props.refMostPicked}>
-      <h4 className="mb-3">Most Picked</h4>
+      <h4 className="mb-3 font-weight-bold">Most Visited</h4>
       <div className="container-grid">
         {props.data.map((item, index) => {
           return (
@@ -30,7 +30,7 @@ export default function MostPicked(props) {
                     className="stretched-link d-block text-white text-decoration-none"
                     href={`/properties/${item._id}`}
                   >
-                    <h5 className="font-weight-bold">{item.name}</h5>
+                    <h5 className="font-weight-bold text-white">{item.name}</h5>
                   </Button>
                   <span>
                     {item.city}, {item.country}
