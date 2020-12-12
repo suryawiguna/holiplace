@@ -33,7 +33,7 @@ export default function Hero(props) {
             hasShadow
             isPrimary
             onClick={showMostPicked}
-            style={{ width: 200 }}
+            style={{ width: 200, minHeight: 60 }}
           >
             <h4 className="mb-0 font-weight-bold">
               Let's Go!
