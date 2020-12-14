@@ -114,14 +114,14 @@ section {
     z-index: 3;
     font-size: 0.875rem;
     background-color: $yellow;
-    padding: .25rem 1rem;
+    padding: 0.25rem 1rem;
     position: absolute;
     top: 15px;
     right: 15px;
     color: $dark-blue;
     min-height: 30px;
     border-radius: 10px;
-    
+
     span {
       font-weight: 300;
     }
@@ -133,16 +133,16 @@ section {
     border-radius: 10px;
     overflow: hidden;
   }
-  
+
   .meta-wrapper {
     margin-top: 1rem;
-    
+
     h5 {
       font-size: 1.125rem;
       margin-bottom: 2px;
     }
     span {
-      font-size: .875rem;
+      font-size: 0.875rem;
     }
   }
 
@@ -151,7 +151,7 @@ section {
     cursor: pointer;
     height: 100%;
     border-radius: 10px;
-    
+
     &:after {
       position: absolute;
       content: "";
@@ -159,7 +159,7 @@ section {
       left: 0;
       bottom: 0;
       transform: scale(1.1);
-      transition: .5s transform ease-in-out;
+      transition: 0.5s transform ease-in-out;
       z-index: 2;
     }
 
@@ -171,7 +171,7 @@ section {
       left: 0;
       bottom: 0;
       transform: scale(1.1);
-      transition: .25s transform ease-in-out;
+      transition: 0.25s transform ease-in-out;
       border-radius: 10px;
     }
 
@@ -184,11 +184,11 @@ section {
       bottom: 0;
       width: 100%;
       transform: translateY(0);
-      transition: .3s transform ease-in-out;
+      transition: 0.3s transform ease-in-out;
       display: flex;
       justify-content: flex-end;
       flex-direction: column;
-      @include gradient-y(rgba(#000000, 0), rgba(#000000, 0.51), 0%, 100%)
+      @include gradient-y(rgba(#000000, 0), rgba(#000000, 0.51), 0%, 100%);
     }
 
     &:hover {
@@ -202,7 +202,34 @@ section {
   }
 }
 
-.testimonial-hero, .testimonial-hero img {
+.testimonial-hero,
+.testimonial-hero img {
   width: 293px;
   height: 358px;
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top: 50px;
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+    a,
+    span {
+      color: $gray-500;
+      font-weight: 300;
+    }
+    a {
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: $gray-500;
+  }
 }
